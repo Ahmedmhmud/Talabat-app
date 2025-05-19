@@ -44,17 +44,17 @@ The system supports three primary user roles — **Admin**, **Seller**, and **Cu
 | `TalabatApp`         | Main launcher class for the JavaFX application. |
 | `Admin`              | Contains admin-related logic and data. |
 | `AdminScene`         | GUI for admin operations. |
-| `AdminFileGenerator` | Generates admin reports (TXT/CSV). |
+| `AdminFileGenerator` | Generates the very first admin account. |
 | `Customer`           | Customer-specific attributes and methods. |
 | `CustomerScene`      | GUI for customer operations. |
 | `Seller`             | Seller-specific attributes and methods. |
 | `SellerScene`        | GUI for seller operations. |
 | `Order`              | Represents order data (products, status, total). |
 | `Product`            | Represents a product listed by a seller. |
-| `SignUpScene`        | GUI for user registration. |
-| `User`               | Base class for all user types. |
+| `SignUpScene`        | GUI for customer registration. |
+| `User`               | Parent class for all user types. |
 | `UserRole`           | Enum for user types (ADMIN, SELLER, CUSTOMER). |
-| `Managable`          | Interface for standard CRUD and search functionality. |
+| `Managable`          | Interface for add, edit, remove and search functionalities. |
 
 ---
 
